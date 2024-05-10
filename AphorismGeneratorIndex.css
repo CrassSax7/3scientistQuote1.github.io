@@ -1,0 +1,124 @@
+body { 
+    align-items: center;
+    background-image: url('ocean-3605547_1280.jpg');
+    justify-content: space-around;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    
+  
+} 
+#navigator{
+ 
+    display: grid;
+    height: 5vh;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif, Times, serif;
+   
+    justify-content: center;
+    margin-top: 5vh;
+    padding-bottom: 10px;
+    text-shadow:  1px 1px #f84dd6;
+    letter-spacing: 2px;
+    text-decoration: none;
+    
+
+}
+
+nav a{
+    color: #f8ddf6;
+    text-decoration: none; 
+}
+a:hover{
+    color: purple;
+}
+
+p{ font-size: calc(32px + 1.7vw);
+    margin-left: 20vh;
+    margin-right: 20vh;
+    color: rgb(255, 211, 244); 
+        text-shadow:  1.5px 1.5px #131113;
+}
+#background{
+    font-family: Papyrus, Arial, Helvetica, sans-serif;
+    font-size:5vw;
+    text-shadow: 1px 1px#eee;
+    text-align: center;
+  
+   
+}
+
+
+#quote-display { 
+
+    display: flexbox;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40%;
+  margin-bottom: 10%;
+  max-width: 50%;
+  max-height: 50vw;
+ 
+} 
+    
+    #quote { 
+        font-size:calc(30px + 2vw);
+        font-weight: bold; 
+        margin: 20px; 
+        text-align: center; 
+        text-shadow: 1px 1px rgb(14, 14, 14);
+        padding: 20px;
+        
+        color: rgb(230, 228, 228);
+    } 
+    
+    button { 
+       
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center; 
+        text-shadow:#eee ;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.1);
+        font-size: 20px; 
+        cursor: pointer; 
+        text-shadow: 1px 1px #eee;
+    } 
+        
+
+    #random{
+        /* BOX MODEL */
+        width: 100%;
+        height: 100%;
+        border: none;
+       
+       
+            
+    /* ENHANCEMENT */
+    background-image: url('#random') ;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+  
+    }
+
+    #About{
+        font-size: calc(18px + 1.5vw);
+        font-weight: bold; 
+        margin: 10vw; 
+        text-align: center; 
+        color: rgb(255, 211, 244); 
+        text-shadow:  1.5px 1.5px #131113;
+        font-family: Papyrus, Arial, Helvetica, sans-serif;
+    }
+    
+
+    h4{
+        font-size: calc(18px + 1.5vw);
+        margin-left: 20%;
+        margin-right:20%;
+        color: rgb(255, 211, 244); 
+        text-shadow:  1.5px 1.5px #131113;
+    }
